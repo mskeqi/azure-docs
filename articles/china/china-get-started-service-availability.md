@@ -69,21 +69,21 @@ The following tables compare services available in global Azure and Microsoft Az
 
 | **Services**            | **Global Azure**                                                                                                                               | **Azure China 21Vianet**                                                                       |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| Azure App Service       | Free <br>Shared <br>Basic <br>Standard <br>Premium <br>Isolated  <br><br>The following services are available: <br>Web App <br>Mobile App <br>API App <br>Logic App <br>Web App on Linux (Preview) | Free <br>Shared <br>Basic <br>Standard <br>Premium  <br><br>Only the following services are available: <br>Web Apps <br>Mobile Apps <br>API Apps   |
-| Azure Mobile Engagement | GA (retiring)                                                                                                                                  | *Not available*                                                                                |
-| Azure Search            | Free <br>Basic <br>Standard S1 <br>Standard S2 <br>Standard S3                                                                                                 | *Not available*                                                                                |
+| Azure App Service       | GA | GA   |
+| Azure Search            | GA | *Not available*  |
+| Mobile Service            | GA | GA  |
 
 ## Databases
 ---------
 
 | **Services**                  | **Global Azure**                                                                                                          | **Azure China 21Vianet**                                                                                                  |
 |-------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| SQL Database                  | Single database <br>(Basic, Standard, Premium, Geo-replication)  <br><br>Elastic database <br>(Basic, Standard, Premium, Geo-replication) | Single database <br>(Basic, Standard, Premium, Geo-replication)  <br><br>Elastic database <br>(Basic, Standard, Premium, Geo-replication) |
-| SQL Data Warehouse            | GA                                                                                                                        | GA                                                                                                                        |
+| SQL Database                  | GA | GA |
+| SQL Data Warehouse            | GA | GA |
 | SQL Server Stretch Database   | GA                                                                                                                        | GA                                                                                                                        |
-| Azure Redis Cache             | Basic <br>Standard <br>Premium                                                                                                    | Basic <br>Standard <br>Premium                                                                                                    |
+| Azure Redis Cache             | GA                                                                                                    | GA                                                                                                  |
 | Azure Cosmos DB               | GA                                                                                                                        | GA                                                                                                                        |
-| Azure Database for MySQL      | Preview                                                                                                                   | MS1-MS6, MP1, MP2                                                                                                       |
+| Azure Database for MySQL      | GA                                                                                                                  | GA                                                                                                  |
 | Azure Database for PostgreSQL | Preview                                                                                                                   | *Not available*                                                                                                           |
 
 ## Intelligence and analytics services
@@ -92,8 +92,8 @@ The following tables compare services available in global Azure and Microsoft Az
 | **Services**              | **Global Azure**                                                                                                                               | **Azure China 21Vianet**                                                                                                                           |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Cortana Intelligence      | GA                                                                                                                                             | *Not available*                                                                                                                                                 |
-| Cognitive Services        | GA for Bing APIs, Translator APIs Preview for other APIs                                                                                       | Preview for Computer Vision API, Face API, and Emotion API                                                                                          |
-| Azure HDInsight           | Hadoop, HBase, Storm, Spark, R Server, Kafka (Preview), Interactive Hive (Preview)  <br><br>General Purpose Node <br>Compute Intensive Node <br>Optimized Node | Hadoop, HBase, Storm, Spark, R Server, Kafka (Preview), Interactive Hive (Preview)  <br><br>General Purpose Node <br>Compute Intensive Node <br>Optimized Node     |
+| Cognitive Services        | GA for Bing APIs, Translator APIs Preview for other APIs                                                                                       | GA for Computer Vision API, Face API; Preview for Emotion API                                                                                          |
+| Azure HDInsight           | GA | GA     |
 | Azure Machine Learning    | Free <br>Standard                                                                                                                                  | *Not available*                                                                                                                                    |
 | Azure Stream Analytics    | GA                                                                                                                                             | GA                                                                                                                                                 |
 | Azure Bot Service         | Preview                                                                                                                                        | *Not available*                                                                                                                                    |
@@ -108,11 +108,12 @@ The following tables compare services available in global Azure and Microsoft Az
 
 | **Services**            | **Global Azure**         | **Azure China 21Vianet** |
 |-------------------------|--------------------------|--------------------------|
-| Azure Events Hub        | Basic <br>Standard <br>Dedicated | Basic <br>Standard           |
+| Azure Events Hub        | GA | GA           |
 | Azure IoT Hub           | GA                       | GA                       |
 | Azure IoT Suite         | GA                       | GA                       |
 | Azure Stream Analytics  | GA                       | GA                       |
-| Azure Notification Hubs | Free <br>Basic <br>Standard      | Free <br>Basic <br>Standard      |
+| Azure Notification Hubs | GA      | GA      |
+| Azure IoT Edge | Preview      | GA      | *Not available* |
 
 ## Media services and Azure Content Delivery Network (CDN)
 -------------------------------------------------------
@@ -128,8 +129,8 @@ The following tables compare services available in global Azure and Microsoft Az
 | **Services**           | **Global Azure**           | **Azure China 21Vianet** |
 |------------------------|----------------------------|--------------------------|
 | Azure BizTalk Services | GA (Retiring)              | *Not available*          |
-| Azure Service Bus      | Basic <br>Standard <br>Premium     | Basic <br>Standard           |
-| Azure API Management   | Developer <br>Standard <br>Premium | *Not available*          |
+| Azure Service Bus      | GA     | GA          |
+| Azure API Management   | GA | Preview         |
 | Azure Logic Apps       | GA                         | *Not available*          |
 | Azure Data Catalog     | Free <br>Standard              | *Not available*          |
 | Azure Event Grid       | Preview                    | *Not available*          |
@@ -143,7 +144,7 @@ The following tables compare services available in global Azure and Microsoft Az
 | Azure Active Directory B2C        | GA                 | *Not available*                                   |
 | Azure AD Domain Services          | GA                 | *Not available*                                   |
 | Azure Multi-Factor Authentication | GA                 | GA                                                |
-| Azure Key Vault                   | Standard <br>Premium   | Standard <br>Premium  <br>No HSM offering                 |
+| Azure Key Vault                   | GA   | GA                 |
 | Azure Security Centre             | Free <br>Standard      | *Not available*                                   |
 
 ## Developer tools
